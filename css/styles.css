@@ -1,0 +1,39 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0.5rem;
+}
+
+.nav-item.active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+main {
+    background-image: url('https://images.unsplash.com/photo-1517429481096-5bc77134f77c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6bf8664a40a24b1d4ef439b380d7696e&auto=format&fit=crop&w=2800&q=80');
+    background-position: center;
+    background-size: cover;
+}
+
+.cover {
+    color: white;
+    padding: 0 1.5rem;
+    max-width: 42em;
+}
+
+.cover h1, .cover h2 {
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
+                 0 8px 13px rgba(0, 0, 0, 0.1),
+                 0 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border-color: #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
